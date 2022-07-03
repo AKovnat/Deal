@@ -1,4 +1,4 @@
-package by.academy.homework.lesson1;
+package by.academy.homework1;
 
 import java.util.Scanner;
 
@@ -24,7 +24,8 @@ public class Homework1Task1 {
         }
         if (sum >= 300 && sum < 400) {
             System.out.println("Финальная цена с учетом скидки: " + (sum - (sum * 0.15)));
-        } if (sum >= 400) {
+        }
+        if (sum >= 400) {
             System.out.println("Финальная цена с учетом скидки:  " + (sum - (sum * 0.2)));
         }
         scanner.close();
